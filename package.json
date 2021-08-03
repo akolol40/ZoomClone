@@ -1,0 +1,56 @@
+{
+  "name": "zoomClone",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "dev": "webpack-dev-server",
+    "start": "webpack"
+  },
+  "proxy": "http://localhost:4000",
+  "author": "",
+  "license": "ISC",
+  "babel": {
+    "presets": [
+      "@babel/env",
+      "@babel/react"
+    ],
+    "plugins": [
+      [
+        "@babel/plugin-transform-runtime",
+        {
+          "regenerator": true
+        }
+      ]
+    ]
+  },
+  "dependencies": {
+    "@babel/core": "^7.13.10",
+    "@babel/plugin-transform-runtime": "^7.13.10",
+    "@babel/preset-env": "^7.13.10",
+    "@babel/preset-react": "^7.12.13",
+    "@babel/runtime": "^7.13.10",
+    "@material-ui/core": "^4.11.3",
+    "@material-ui/icons": "^4.11.2",
+    "babel-loader": "^8.2.2",
+    "css-loader": "^5.1.1",
+    "file-loader": "^6.2.0",
+    "material-ui-icons": "^1.0.0-beta.36",
+    "react": "^17.0.1",
+    "react-dom": "^17.0.1",
+    "react-redux": "^7.2.2",
+    "react-router-dom": "^5.2.0",
+    "react-socket-io": "^0.2.5",
+    "react-svg": "^12.1.0",
+    "react-uuid": "^1.0.2",
+    "react-yandex-maps": "^4.6.0",
+    "redux": "^4.0.5",
+    "simple-peer": "^9.10.0",
+    "socket.io-client": "^4.0.1",
+    "style-loader": "^2.0.0",
+    "webpack": "^5.24.4",
+    "webpack-cli": "^3.3.4",
+    "webpack-dev-server": "^3.10.2",
+    "yandex-map-react": "^1.1.1"
+  }
+}

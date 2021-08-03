@@ -1,0 +1,27 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <title>Viewer</title>
+    <meta charset="UTF-8" />
+    <link href="/styles.css" rel="stylesheet" />
+	<script type="text/javascript" src="https://ajax.googleapis.com/ajax/libs/jquery/2.0.3/jquery.min.js"></script>
+  </head>
+  <body>
+    
+	<label>ID комнаты</label> 
+	<input id="roomID"  value="" type="text"/> 
+	<input type="button" id="btn" value="Войти"/>
+    
+	<div style="display: none" id="show">
+		<button id="enable-audio">Enable audio</button>
+		<video playsinline autoplay muted></video>
+	</div>
+    <script src="/socket.io/socket.io.js"></script>
+    <script src="/watch.js"></script>
+	<script>
+
+		//$("#btn").click(() => console.log($("#roomID").val()))
+
+	</script>
+  </body>
+</html>
